@@ -15,3 +15,5 @@ r=$(( c + a / b ))
 echo "r=$r"
 s=$(( a % b + c ))
 echo "s=$s"
+arrayName=( $p $q $r $s )
+echo ${arrayName[@]}
