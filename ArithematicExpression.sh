@@ -13,3 +13,5 @@ q=$(( a * b + c ))
 echo "q=$q"
 r=$(( c + a / b ))
 echo "r=$r"
+s=$(( a % b + c ))
+echo "s=$s"
